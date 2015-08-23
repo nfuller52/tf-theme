@@ -1,0 +1,40 @@
+/* # Genesis TasukuForce Child Theme
+Theme Name: TasukuForce
+Theme URI: http://www.tasukuforce.com
+Description: The theme for TasukuForce.com
+Author: Nick Fuller
+Author URI: http://www.tasukuforce.com/
+Template Version: 0.0.2
+
+Template: genesis
+*/
+
+// Reset, Variables, Mixins, Etc
+// DO NOT EDIT ORDER OF FILES
+@import "bourbon/bourbon";
+@import "partials/mixins";
+@import "partials/variables";
+
+// Genesis
+@import "partials/genesis";
+
+// General, Typography
+@import "partials/general";
+
+// Layout
+@import "partials/header";
+@import "partials/maincontent";
+@import "partials/footer";
+
+// Menus, Page and Post styles
+@import "partials/menus";
+@import "partials/page-post";
+
+// Page Templates
+@import "partials/page-home";
+@import "partials/page-blog";
+
+// Widgets, Search, Comments, Forms, Sharing
+@import "partials/widgets";
+@import "partials/comments";
+@import "partials/forms";
