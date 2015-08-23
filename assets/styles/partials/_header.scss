@@ -3,16 +3,39 @@
    ========================================================================== */
 
 .site-header {
+  background: url('images/tasuku-heading-bar.png') $deep-blue no-repeat center;
+  max-height: 100px;
+  min-height: 100px;
+
+  .wrap {
+    padding: 0;
+  }
 }
 
 .title-area {
+  padding: 0;
+  min-height: 100px;
+  display: inline-block;
+  max-width: 400px;
 }
 
 .site-title {
+  background-image: url('images/logo.png') no-repeat left;
+  position: relative;
+  display: inline-block;
+
+  a {
+    position: absolute;
+    top: 48px;
+    display: inline-block;
+    min-height: 52px !important;
+    max-width: 400px;
+    width: 400px;
+  }
 }
 
-.site-description {
-}
-
-.header-widget-area {
+.nav-primary {
+  display: inline-block;
+  float: right;
+  background-color: transparent;
 }

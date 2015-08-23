@@ -1624,12 +1624,12 @@ li.comment {
    Selection Highlights
    ========================================================================== */
 ::-moz-selection {
-  background: orange;
+  background: red;
   text-shadow: none;
 }
 
 ::selection {
-  background: orange;
+  background: red;
   text-shadow: none;
 }
 
@@ -1651,18 +1651,74 @@ a:hover {
 /* ==========================================================================
    Header
    ========================================================================== */
+.site-header {
+  background: url("images/tasuku-heading-bar.png") #3f5669 no-repeat center;
+  max-height: 100px;
+  min-height: 100px;
+}
+.site-header .wrap {
+  padding: 0;
+}
+
+.title-area {
+  padding: 0;
+  min-height: 100px;
+  display: inline-block;
+  max-width: 400px;
+}
+
+.site-title {
+  background-image: url("images/logo.png") no-repeat left;
+  position: relative;
+  display: inline-block;
+}
+.site-title a {
+  position: absolute;
+  top: 48px;
+  display: inline-block;
+  min-height: 52px !important;
+  max-width: 400px;
+  width: 400px;
+}
+
+.nav-primary {
+  display: inline-block;
+  float: right;
+  background-color: transparent;
+}
+
 /* ==========================================================================
    Main Content
    ========================================================================== */
+.site-inner {
+  background: #fff;
+}
+
 /* ==========================================================================
    Sidebars
    ========================================================================== */
 /* ==========================================================================
    Footer
    ========================================================================== */
+.site-footer {
+  min-height: 360px;
+}
+
 /* ==========================================================================
    Menus
    ========================================================================== */
+.menu-primary {
+  min-height: 100px;
+  line-height: 2.5;
+}
+.menu-primary .menu-item {
+  text-transform: lowercase;
+}
+.menu-primary .menu-item a:hover {
+  color: #fff;
+  background-color: #4c667b;
+}
+
 /* ==========================================================================
    Posts
    ========================================================================== */

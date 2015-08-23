@@ -6,4 +6,15 @@
 }
 
 .menu-primary {
+  min-height: 100px;
+  line-height: 2.5;
+
+  .menu-item {
+    text-transform: lowercase;
+
+    a:hover {
+      color: #fff;
+      background-color: #4c667b;
+    }
+  }
 }
