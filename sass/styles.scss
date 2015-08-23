@@ -1,6 +1,15 @@
+// HTML Resets
 @import 'partials/normalize';
-
 @import 'partials/box-sizing';
 @import 'partials/float-clearing';
 
+// Defaults
 @import 'partials/typography-elements';
+@import 'partials/headings';
+@import 'partials/objects';
+@import 'partials/gallery';
+@import 'partials/forms';
+@import 'partials/tables';
+
+// Structure and Layout
+@import 'partials/site-containers';
