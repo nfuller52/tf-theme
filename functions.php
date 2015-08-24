@@ -47,3 +47,5 @@ remove_action( 'genesis_site_description', 'genesis_seo_site_description' );
 // Add the navigation to the header
 remove_action( 'genesis_after_header', 'genesis_do_nav' );
 add_action( 'genesis_header', 'genesis_do_nav' );
+
+genesis_widget_area( 'sidebar' );

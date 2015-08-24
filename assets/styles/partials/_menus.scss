@@ -12,9 +12,22 @@
   .menu-item {
     text-transform: lowercase;
 
+    a {
+      color: $nav-color;
+      font-weight: 500;
+    }
+
     a:hover {
-      color: #fff;
-      background-color: #4c667b;
+      color: $nav-color-hover !important;
+      background-color: $nav-bg-hover;
+    }
+  }
+
+  .current_page_item {
+
+    a {
+      color: $current-page-color !important;
+      background-color: $current-page-bg;
     }
   }
 }

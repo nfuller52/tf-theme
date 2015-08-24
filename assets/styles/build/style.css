@@ -1714,9 +1714,17 @@ a:hover {
 .menu-primary .menu-item {
   text-transform: lowercase;
 }
-.menu-primary .menu-item a:hover {
+.menu-primary .menu-item a {
   color: #fff;
+  font-weight: 500;
+}
+.menu-primary .menu-item a:hover {
+  color: #fff !important;
   background-color: #4c667b;
+}
+.menu-primary .current_page_item a {
+  color: #3f5669 !important;
+  background-color: #fff;
 }
 
 /* ==========================================================================
